@@ -1,0 +1,38 @@
+/*
+ #2B2D42 - dark blue
+ #8D99AE - light blue
+ #EDF2F4 - blue/white
+*/
+
+/* Global styles
+-------------------------*/
+body {
+	color: green;
+}
+header, footer {
+	background: #2B2D42;
+	color: #EDF2F4
+}
+.Bio {
+	background: #EDF2F4;
+}
+
+a{
+
+}
+.blktxt {
+	color: black;
+}
+#help{
+	color: red;
+}
+ol a {
+	color: black;
+}
+
+#links a:visited{
+	color: #EDF2F4;
+}
+#links a:hover{
+	 text-decoration: none;
+}
