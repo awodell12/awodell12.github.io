@@ -7,12 +7,24 @@
 /* Global styles
 -------------------------*/
 body {
-	color: green;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+ 
 }
 header, footer {
 	background: #2B2D42;
-	color: #EDF2F4
+	color: #EDF2F4;
+	font-family: 'Caveat', cursive;
+
 }
+h1 {
+	font-size: 40px;
+}
+ol {
+	background: #8D99AE;
+	font-family: 'Fira Sans', sans-serif;
+}
+
 .Bio {
 	background: #EDF2F4;
 }
@@ -24,7 +36,7 @@ a{
 	color: black;
 }
 #help{
-	color: red;
+	color: darkred;
 }
 ol a {
 	color: black;
@@ -35,4 +47,7 @@ ol a {
 }
 #links a:hover{
 	 text-decoration: none;
+}
+#larger{
+	font-size: 30px;
 }
