@@ -15,10 +15,12 @@ header, footer {
 	background: #2B2D42;
 	color: #EDF2F4;
 	font-family: 'Caveat', cursive;
+	text-align: center;
+	display: block;
 
 }
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 }
 ol {
 	background: #8D99AE;
@@ -27,6 +29,8 @@ ol {
 
 .Bio {
 	background: #EDF2F4;
+	float: right;
+	padding-bottom: 2%;
 }
 
 a{
@@ -54,4 +58,19 @@ ol a {
 
 h2 a {
 	color: blue;
+}
+
+img {
+	display: inline-block;
+	float: left;
+	margin-right: 20px;
+	border-radius: 25%; 
+}
+
+.bodytext{
+	display: block;
+	height = 5in; 
+	width = 100px; 
+	line-height: 1.5;
+	padding-right: 2%; 
 }
